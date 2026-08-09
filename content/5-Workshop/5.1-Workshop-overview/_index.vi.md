@@ -10,11 +10,11 @@ pre: " <b> 5.1. </b> "
 
 FoodieRecipe là nền tảng chia sẻ công thức nấu ăn có chức năng tài khoản, tìm kiếm, quản lý công thức, thích, bình luận và tạo công thức bằng AI từ ảnh nguyên liệu.
 
-![FoodieRecipe hoạt động trên domain production](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe hoạt động trên domain production](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 #### Kiến trúc Workshop
 
-![Kiến trúc FoodieRecipe trên AWS](/images/2-Proposal/foodie-recipe-architecture.png)
+![Kiến trúc FoodieRecipe trên AWS](/AWS-WorkBlog-LeHoaiLoc/images/2-Proposal/foodie-recipe-architecture.png)
 
 | Thành phần | Trách nhiệm |
 | ---------- | ----------- |

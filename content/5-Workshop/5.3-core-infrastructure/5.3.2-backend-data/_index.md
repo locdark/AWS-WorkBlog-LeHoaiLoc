@@ -10,7 +10,7 @@ pre: " <b> 5.3.2. </b> "
 
 Open **Amazon VPC → Your VPCs → Resource map** to inspect the VPC, subnets, route table, and Internet Gateway.
 
-![Resource map of the VPC used for FoodieRecipe](/images/5-Workshop/5.3-Core-infrastructure/5.3.2-backend-data/vpc-resource-map.png)
+![Resource map of the VPC used for FoodieRecipe](/AWS-WorkBlog-LeHoaiLoc/images/5-Workshop/5.3-Core-infrastructure/5.3.2-backend-data/vpc-resource-map.png)
 
 - EC2/Nginx resides in a public subnet and uses an Elastic IP.
 - RDS uses a DB subnet group spanning at least two Availability Zones.
@@ -28,7 +28,7 @@ Open **Amazon VPC → Your VPCs → Resource map** to inspect the VPC, subnets, 
 4. Attach `FoodieRecipeRdsSg`.
 5. Store the connection string in `prod/foodie-recipe/db`.
 
-![FoodieRecipe RDS PostgreSQL in the Available state](/images/1-Worklog/1.2-Week2/rds-database-created.png)
+![FoodieRecipe RDS PostgreSQL in the Available state](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/rds-database-created.png)
 
 Never expose `5432` to `0.0.0.0/0` or commit the database password.
 
@@ -43,7 +43,7 @@ pnpm prisma migrate deploy
 pnpm prisma studio
 ```
 
-![Tables after Prisma migration](/images/1-Worklog/1.3-Week3/prisma-migration-result.png)
+![Tables after Prisma migration](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/prisma-migration-result.png)
 
 `RecipeImage` stores the URL, image type, and display order. AI status belongs to `AIGenerationHistory`, not the image table.
 
@@ -53,9 +53,9 @@ pnpm prisma studio
 2. Attach the Backend IAM role and `FoodieRecipeEc2Sg`.
 3. Allow SSH `22` only from the administrator IP and expose `80/443` to users.
 
-![FoodieRecipe EC2 instance running](/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
+![FoodieRecipe EC2 instance running](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
 
-![IAM role and Security Groups attached to EC2](/images/1-Worklog/1.7-Week7/ec2-iam-role.png)
+![IAM role and Security Groups attached to EC2](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-iam-role.png)
 
 ```bash
 aws sts get-caller-identity
@@ -112,7 +112,7 @@ docker run -d \
 unset DB_SECRET APP_SECRET DATABASE_URL JWT_SECRET
 ```
 
-![PostgreSQL container running in the local environment](/images/1-Worklog/1.3-Week3/docker-postgres-running.png)
+![PostgreSQL container running in the local environment](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/docker-postgres-running.png)
 
 #### 6. Configure Nginx
 
@@ -144,14 +144,14 @@ curl http://127.0.0.1:3001/api
 curl -I https://myapps.io.vn
 ```
 
-![Health endpoint returning Hello World](/images/1-Worklog/1.3-Week3/api-hello-world.png)
+![Health endpoint returning Hello World](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/api-hello-world.png)
 
 #### 7. Verify the API and database
 
 Swagger verifies the API contract:
 
-![FoodieRecipe Swagger API](/images/1-Worklog/1.3-Week3/swagger-overview.png)
+![FoodieRecipe Swagger API](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/swagger-overview.png)
 
-![Successful sign-in through Swagger](/images/1-Worklog/1.3-Week3/swagger-login-success.png)
+![Successful sign-in through Swagger](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/swagger-login-success.png)
 
 Confirm that migrations complete, registration/sign-in works, recipe creation writes to RDS, and the container restarts after an EC2 reboot.

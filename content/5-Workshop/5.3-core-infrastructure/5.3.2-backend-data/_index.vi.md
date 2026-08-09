@@ -10,7 +10,7 @@ pre: " <b> 5.3.2. </b> "
 
 Mở **Amazon VPC → Your VPCs → Resource map** để kiểm tra VPC, subnet, route table và Internet Gateway.
 
-![Resource map của VPC triển khai FoodieRecipe](/images/5-Workshop/5.3-Core-infrastructure/5.3.2-backend-data/vpc-resource-map.png)
+![Resource map của VPC triển khai FoodieRecipe](/AWS-WorkBlog-LeHoaiLoc/images/5-Workshop/5.3-Core-infrastructure/5.3.2-backend-data/vpc-resource-map.png)
 
 - EC2/Nginx nằm trong public subnet và dùng Elastic IP.
 - RDS dùng DB subnet group trải trên ít nhất hai Availability Zone.
@@ -28,7 +28,7 @@ Mở **Amazon VPC → Your VPCs → Resource map** để kiểm tra VPC, subnet,
 4. Gắn `FoodieRecipeRdsSg`.
 5. Lưu connection string trong secret `prod/foodie-recipe/db`.
 
-![RDS PostgreSQL FoodieRecipe ở trạng thái Available](/images/1-Worklog/1.2-Week2/rds-database-created.png)
+![RDS PostgreSQL FoodieRecipe ở trạng thái Available](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/rds-database-created.png)
 
 Không mở `5432` cho `0.0.0.0/0` và không đưa password vào Git.
 
@@ -43,7 +43,7 @@ pnpm prisma migrate deploy
 pnpm prisma studio
 ```
 
-![Các bảng sau khi Prisma migration](/images/1-Worklog/1.3-Week3/prisma-migration-result.png)
+![Các bảng sau khi Prisma migration](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/prisma-migration-result.png)
 
 `RecipeImage` lưu URL, loại ảnh và thứ tự hiển thị; trạng thái AI thuộc `AIGenerationHistory`, không thuộc bảng ảnh.
 
@@ -53,9 +53,9 @@ pnpm prisma studio
 2. Gắn IAM Role của Backend cùng `FoodieRecipeEc2Sg`.
 3. Chỉ mở SSH `22` từ IP quản trị; mở `80/443` cho người dùng.
 
-![EC2 FoodieRecipe đang chạy](/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
+![EC2 FoodieRecipe đang chạy](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
 
-![IAM Role và Security Group gắn với EC2](/images/1-Worklog/1.7-Week7/ec2-iam-role.png)
+![IAM Role và Security Group gắn với EC2](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-iam-role.png)
 
 ```bash
 aws sts get-caller-identity
@@ -112,7 +112,7 @@ docker run -d \
 unset DB_SECRET APP_SECRET DATABASE_URL JWT_SECRET
 ```
 
-![PostgreSQL container hoạt động trong môi trường local](/images/1-Worklog/1.3-Week3/docker-postgres-running.png)
+![PostgreSQL container hoạt động trong môi trường local](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/docker-postgres-running.png)
 
 #### 6. Cấu hình Nginx
 
@@ -144,14 +144,14 @@ curl http://127.0.0.1:3001/api
 curl -I https://myapps.io.vn
 ```
 
-![Health endpoint trả về Hello World](/images/1-Worklog/1.3-Week3/api-hello-world.png)
+![Health endpoint trả về Hello World](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/api-hello-world.png)
 
 #### 7. Kiểm tra API và database
 
 Swagger giúp kiểm tra contract của API:
 
-![Swagger FoodieRecipe API](/images/1-Worklog/1.3-Week3/swagger-overview.png)
+![Swagger FoodieRecipe API](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/swagger-overview.png)
 
-![Đăng nhập thành công qua Swagger](/images/1-Worklog/1.3-Week3/swagger-login-success.png)
+![Đăng nhập thành công qua Swagger](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.3-Week3/swagger-login-success.png)
 
 Xác nhận migration hoàn tất, đăng ký/đăng nhập hoạt động, API tạo công thức ghi được RDS và container tự khởi động lại sau reboot EC2.

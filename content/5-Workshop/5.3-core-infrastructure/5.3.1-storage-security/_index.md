@@ -14,9 +14,9 @@ pre: " <b> 5.3.1. </b> "
 4. Keep **Object Ownership: Bucket owner enforced** and disable ACLs.
 5. Enable every **Block Public Access** setting and default encryption.
 
-![The my-foodie-ai-images S3 bucket](/images/1-Worklog/1.2-Week2/s3-bucket-created.png)
+![The my-foodie-ai-images S3 bucket](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-bucket-created.png)
 
-![Block Public Access enabled on the bucket](/images/1-Worklog/1.2-Week2/s3-block-public-access.png)
+![Block Public Access enabled on the bucket](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-block-public-access.png)
 
 The Backend stores AI images under `ai-images/`; recipe images and avatars may use separate folders in the same private bucket.
 
@@ -72,7 +72,7 @@ Create two secrets:
 - `prod/foodie-recipe/db`: `DATABASE_URL` or RDS connection fields.
 - `prod/foodie-recipe/app`: `JWT_SECRET` and `CLOUDFRONT_PRIVATE_KEY_BASE64`.
 
-![FoodieRecipe secrets in Secrets Manager](/images/1-Worklog/1.2-Week2/secrets-manager-created.png)
+![FoodieRecipe secrets in Secrets Manager](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/secrets-manager-created.png)
 
 Non-sensitive values such as bucket name, model ID, CloudFront domain, and TTL may be stored in Systems Manager Parameter Store.
 

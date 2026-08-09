@@ -16,7 +16,7 @@ pre: " <b> 5.4.4. </b> "
 
 Direct S3 access must be denied:
 
-![S3 denies direct access to the private object](/images/1-Worklog/1.2-Week2/s3-direct-url-access-denied.png)
+![S3 denies direct access to the private object](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-direct-url-access-denied.png)
 
 #### 2. Create an OAC with AWS CLI
 
@@ -110,7 +110,7 @@ return getSignedUrl(
 
 The local S3 pre-signed GET URL grants temporary object access:
 
-![Image loaded through an S3 pre-signed GET URL](/images/1-Worklog/1.2-Week2/s3-presigned-url-success.png)
+![Image loaded through an S3 pre-signed GET URL](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-presigned-url-success.png)
 
 #### 6. Allow CloudFront images in Next.js
 

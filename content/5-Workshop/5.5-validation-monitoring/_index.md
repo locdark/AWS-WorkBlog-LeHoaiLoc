@@ -10,7 +10,7 @@ pre: " <b> 5.5. </b> "
 
 Open `https://myapps.io.vn` and confirm HTTPS, Next.js data loading from `/api`, authentication cookies, and private images rendered through expiring URLs.
 
-![FoodieRecipe running on the production domain](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe running on the production domain](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 ```bash
 curl -I https://myapps.io.vn
@@ -39,7 +39,7 @@ docker logs --tail 100 foodierecipe-api
 
 The recipe discovery UI validates search, filters, like state, and API data:
 
-![Recipe list and like state](/images/1-Worklog/1.4-Week4/recipe-discovery-page.png)
+![Recipe list and like state](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.4-Week4/recipe-discovery-page.png)
 
 #### 3. Structured logging
 
@@ -60,7 +60,7 @@ As an improvement, add `requestId`, `userId`, `historyId`, `durationMs`, and `er
 
 CloudWatch contains `foodie-recipe-log` for the application and `RDSOSMetrics` for RDS Enhanced Monitoring:
 
-![FoodieRecipe CloudWatch Log Groups](/images/1-Worklog/1.8-Week8/cloudwatch-log-groups.png)
+![FoodieRecipe CloudWatch Log Groups](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/cloudwatch-log-groups.png)
 
 The EC2 CloudWatch Agent needs `logs:CreateLogStream`, `logs:DescribeLogStreams`, and `logs:PutLogEvents`. Use appropriate retention, for example one week for workshop logs and one month for RDS metrics.
 

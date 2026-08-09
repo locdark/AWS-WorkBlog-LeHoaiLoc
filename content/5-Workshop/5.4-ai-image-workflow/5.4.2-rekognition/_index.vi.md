@@ -68,11 +68,11 @@ labels
 
 Giao diện hiển thị các label và confidence Rekognition trả về:
 
-![Kết quả nhận diện label từ Rekognition](/images/1-Worklog/1.5-Week5/rekognition-labels-result.png)
+![Kết quả nhận diện label từ Rekognition](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/rekognition-labels-result.png)
 
 Các nhãn được lưu cùng lịch sử tạo công thức để truy vết input AI:
 
-![Nhãn Rekognition được lưu trong lịch sử](/images/1-Worklog/1.5-Week5/rekognition-labels-history.png)
+![Nhãn Rekognition được lưu trong lịch sử](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/rekognition-labels-history.png)
 
 #### 5. Xử lý lỗi và giới hạn hiện tại
 

@@ -10,7 +10,7 @@ pre: " <b> 5.5. </b> "
 
 Mở `https://myapps.io.vn` và xác nhận domain dùng HTTPS, Next.js tải được dữ liệu từ `/api`, cookie xác thực hoạt động và ảnh private hiển thị qua URL có thời hạn.
 
-![FoodieRecipe hoạt động trên domain production](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe hoạt động trên domain production](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 ```bash
 curl -I https://myapps.io.vn
@@ -39,7 +39,7 @@ docker logs --tail 100 foodierecipe-api
 
 Giao diện khám phá công thức cho phép kiểm tra tìm kiếm, filter, lượt thích và danh sách dữ liệu từ API:
 
-![Danh sách công thức và trạng thái lượt thích](/images/1-Worklog/1.4-Week4/recipe-discovery-page.png)
+![Danh sách công thức và trạng thái lượt thích](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.4-Week4/recipe-discovery-page.png)
 
 #### 3. Log có cấu trúc
 
@@ -60,7 +60,7 @@ Nên bổ sung `requestId`, `userId`, `historyId`, `durationMs` và `errorCode` 
 
 CloudWatch chứa `foodie-recipe-log` cho ứng dụng và `RDSOSMetrics` cho RDS Enhanced Monitoring:
 
-![CloudWatch Log Groups của FoodieRecipe](/images/1-Worklog/1.8-Week8/cloudwatch-log-groups.png)
+![CloudWatch Log Groups của FoodieRecipe](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/cloudwatch-log-groups.png)
 
 CloudWatch Agent trên EC2 cần IAM permission `logs:CreateLogStream`, `logs:DescribeLogStreams` và `logs:PutLogEvents`. Đặt retention phù hợp, ví dụ một tuần cho log workshop và một tháng cho RDS metrics.
 

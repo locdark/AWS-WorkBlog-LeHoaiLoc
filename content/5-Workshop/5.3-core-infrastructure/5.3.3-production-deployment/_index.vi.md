@@ -30,7 +30,7 @@ Port `3000` và `3001` chỉ bind `127.0.0.1`; Nginx là entry point duy nhất 
 
 Xác nhận EC2 đang chạy, đã gắn Elastic IP và IAM Role:
 
-![EC2 FoodieRecipe sẵn sàng deploy](/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
+![EC2 FoodieRecipe sẵn sàng deploy](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
 
 ```bash
 aws sts get-caller-identity
@@ -305,7 +305,7 @@ curl -I 'https://my-foodie-ai-images.s3.<region>.amazonaws.com/ai-images/<key>.j
 
 Signed URL phải trả `200`; URL S3 trực tiếp phải trả `403`.
 
-![FoodieRecipe hoạt động trên domain production](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe hoạt động trên domain production](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 Smoke test sau deploy:
 

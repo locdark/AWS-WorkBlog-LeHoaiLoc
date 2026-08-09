@@ -33,16 +33,16 @@ pre: " <b> 1.1. </b> "
 * Xây dựng được nền tảng về quản lý chi phí AWS, biết cách sử dụng AWS Free Tier hiệu quả và lập kế hoạch tiếp tục nghiên cứu các dịch vụ AWS.
 
 **Hình ảnh kết quả tạo tài khoản AWS thành công:**
-![](/images/1-Worklog/1.1-Week1/NewAccount.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/NewAccount.png)
 
 **Kiểm tra tài khoản và cấu hình bảo mật trên IAM Dashboard:**
-![](/images/1-Worklog/1.1-Week1/IAM.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/IAM.png)
 
 **Theo dõi chi phí và trạng thái ngân sách trên Billing and Cost Management:**
-![](/images/1-Worklog/1.1-Week1/Das.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/Das.png)
 
 **Tạo budgets:**
-![](/images/1-Worklog/1.1-Week1/bug.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/bug.png)
 
 **Hoàn thành các nhiệm vụ nhận ngân sách:**
-![](/images/1-Worklog/1.1-Week1/NV.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/NV.png)

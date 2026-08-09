@@ -67,7 +67,7 @@ return response.output?.message?.content?.[0]?.text ?? '';
 
 Trong lúc chờ response, giao diện khóa nút gửi để tránh tạo request trùng:
 
-![Bedrock đang tạo công thức](/images/1-Worklog/1.6-Week6/bedrock-processing.png)
+![Bedrock đang tạo công thức](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.6-Week6/bedrock-processing.png)
 
 #### 4. Validate và lưu transaction
 
@@ -77,9 +77,9 @@ Nếu parse, validate hoặc transaction thất bại, history được ghi `FAI
 
 #### 5. Kết quả
 
-![Kết quả công thức được Bedrock tạo](/images/1-Worklog/1.6-Week6/bedrock-recipe-result.png)
+![Kết quả công thức được Bedrock tạo](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.6-Week6/bedrock-recipe-result.png)
 
-![Nguyên liệu và các bước thực hiện đã được lưu](/images/1-Worklog/1.6-Week6/generated-recipe-details.png)
+![Nguyên liệu và các bước thực hiện đã được lưu](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.6-Week6/generated-recipe-details.png)
 
 #### 6. Kiểm soát chất lượng và chi phí
 

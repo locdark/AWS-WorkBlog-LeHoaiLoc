@@ -68,11 +68,11 @@ labels
 
 The interface displays labels and confidence values returned by Rekognition:
 
-![Labels detected by Rekognition](/images/1-Worklog/1.5-Week5/rekognition-labels-result.png)
+![Labels detected by Rekognition](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/rekognition-labels-result.png)
 
 Labels are stored with generation history so the AI input can be traced:
 
-![Rekognition labels stored in generation history](/images/1-Worklog/1.5-Week5/rekognition-labels-history.png)
+![Rekognition labels stored in generation history](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/rekognition-labels-history.png)
 
 #### 5. Errors and current limitations
 

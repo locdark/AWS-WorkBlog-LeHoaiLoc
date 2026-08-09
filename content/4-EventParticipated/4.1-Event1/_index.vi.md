@@ -119,6 +119,6 @@ Tham gia sự kiện **Cloud Architect** là một trải nghiệm rất bổ í
 - Kiến trúc tốt phải làm cho việc thay đổi trong tương lai trở nên dễ hơn, không khó hơn.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![Ảnh tập thể tại sự kiện Cloud Architect](/images/4-EventParticipated/4.1-Event1/picture_event.png)
+![Ảnh tập thể tại sự kiện Cloud Architect](/AWS-WorkBlog-LeHoaiLoc/images/4-EventParticipated/4.1-Event1/picture_event.png)
 
 > Tổng thể, sự kiện giúp tôi hiểu rõ hơn về vai trò cloud architect và cách những quyết định thiết kế đúng đắn tạo ra hệ thống an toàn, mở rộng tốt và dễ vận hành.

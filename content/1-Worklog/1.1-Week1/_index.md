@@ -32,16 +32,16 @@ pre: " <b> 1.1. </b> "
 * Established a foundation in AWS cost management, learned how to use AWS Free Tier effectively, and built a plan to continue researching and applying AWS services.
 
 **Image of successful AWS account creation:**
-![](/images/1-Worklog/1.1-Week1/NewAccount.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/NewAccount.png)
 
 **Check account and security configuration on IAM Dashboard:**
-![](/images/1-Worklog/1.1-Week1/IAM.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/IAM.png)
 
 **Track costs and budget status on Billing and Cost Management:**
-![](/images/1-Worklog/1.1-Week1/Das.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/Das.png)
 
 **Create budgets:**
-![](/images/1-Worklog/1.1-Week1/bug.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/bug.png)
 
 **Complete tasks to receive budget credit:**
-![](/images/1-Worklog/1.1-Week1/NV.png)
+![](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.1-Week1/NV.png)

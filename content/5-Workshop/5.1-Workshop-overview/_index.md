@@ -10,11 +10,11 @@ pre: " <b> 5.1. </b> "
 
 FoodieRecipe is a recipe-sharing platform with accounts, search, recipe management, likes, comments, and AI recipe generation from ingredient images.
 
-![FoodieRecipe running on the production domain](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe running on the production domain](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 #### Workshop architecture
 
-![FoodieRecipe architecture on AWS](/images/2-Proposal/foodie-recipe-architecture.png)
+![FoodieRecipe architecture on AWS](/AWS-WorkBlog-LeHoaiLoc/images/2-Proposal/foodie-recipe-architecture.png)
 
 | Component | Responsibility |
 | --------- | -------------- |

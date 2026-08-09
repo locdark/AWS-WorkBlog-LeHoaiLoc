@@ -105,7 +105,7 @@ Xây dựng FoodieRecipe thành một sản phẩm chia sẻ công thức hoàn 
 
 ## 6. Kiến trúc giải pháp
 
-![Kiến trúc tổng thể FoodieRecipe](/images/2-Proposal/foodie-recipe-architecture.png)
+![Kiến trúc tổng thể FoodieRecipe](/AWS-WorkBlog-LeHoaiLoc/images/2-Proposal/foodie-recipe-architecture.png)
 
 ### 6.1. Kiến trúc sản phẩm tổng thể
 

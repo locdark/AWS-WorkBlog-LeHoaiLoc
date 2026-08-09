@@ -105,7 +105,7 @@ Build FoodieRecipe as a complete recipe-sharing product while developing and eva
 
 ## 6. Solution Architecture
 
-![FoodieRecipe Overall Architecture](/images/2-Proposal/foodie-recipe-architecture.png)
+![FoodieRecipe Overall Architecture](/AWS-WorkBlog-LeHoaiLoc/images/2-Proposal/foodie-recipe-architecture.png)
 
 ### 6.1. Complete product architecture
 

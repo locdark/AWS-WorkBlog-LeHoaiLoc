@@ -30,7 +30,7 @@ Ports `3000` and `3001` bind only to `127.0.0.1`; Nginx is the only Internet-fac
 
 Confirm that EC2 is running with an Elastic IP and IAM role:
 
-![FoodieRecipe EC2 ready for deployment](/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
+![FoodieRecipe EC2 ready for deployment](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.7-Week7/ec2-instance-running.png)
 
 ```bash
 aws sts get-caller-identity
@@ -305,7 +305,7 @@ curl -I 'https://my-foodie-ai-images.s3.<region>.amazonaws.com/ai-images/<key>.j
 
 The signed URL must return `200`; direct S3 access must return `403`.
 
-![FoodieRecipe running on the production domain](/images/1-Worklog/1.8-Week8/production-custom-domain.png)
+![FoodieRecipe running on the production domain](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.8-Week8/production-custom-domain.png)
 
 Post-deployment smoke tests:
 

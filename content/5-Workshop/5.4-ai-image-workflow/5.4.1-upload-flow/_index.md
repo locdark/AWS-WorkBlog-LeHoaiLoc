@@ -10,9 +10,9 @@ pre: " <b> 5.4.1. </b> "
 
 The **AI Fridge** page lets an authenticated user select an ingredient image:
 
-![Ingredient-image upload page](/images/1-Worklog/1.4-Week4/ai-image-upload-page.png)
+![Ingredient-image upload page](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.4-Week4/ai-image-upload-page.png)
 
-![Selected ingredient image](/images/1-Worklog/1.5-Week5/ai-image-selected.png)
+![Selected ingredient image](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/ai-image-selected.png)
 
 Unlike a pre-signed PUT flow, the current implementation sends the file through NestJS. This lets the Backend control resizing, encoding, and the object key before writing to S3.
 

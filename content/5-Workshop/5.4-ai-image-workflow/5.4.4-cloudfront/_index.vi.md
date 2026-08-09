@@ -16,7 +16,7 @@ pre: " <b> 5.4.4. </b> "
 
 Truy cập URL S3 trực tiếp phải bị từ chối:
 
-![S3 từ chối truy cập object private](/images/1-Worklog/1.2-Week2/s3-direct-url-access-denied.png)
+![S3 từ chối truy cập object private](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-direct-url-access-denied.png)
 
 #### 2. Tạo OAC bằng AWS CLI
 
@@ -110,7 +110,7 @@ return getSignedUrl(
 
 S3 pre-signed GET URL local có thể đọc object trong thời hạn cho phép:
 
-![Ảnh được đọc bằng S3 pre-signed GET URL](/images/1-Worklog/1.2-Week2/s3-presigned-url-success.png)
+![Ảnh được đọc bằng S3 pre-signed GET URL](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-presigned-url-success.png)
 
 #### 6. Cho phép ảnh CloudFront trong Next.js
 

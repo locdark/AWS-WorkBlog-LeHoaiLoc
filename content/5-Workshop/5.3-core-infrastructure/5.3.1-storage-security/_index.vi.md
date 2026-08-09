@@ -14,9 +14,9 @@ pre: " <b> 5.3.1. </b> "
 4. Giữ **Object Ownership: Bucket owner enforced** và tắt ACL.
 5. Bật toàn bộ **Block Public Access** và bật default encryption.
 
-![S3 bucket my-foodie-ai-images đã được tạo](/images/1-Worklog/1.2-Week2/s3-bucket-created.png)
+![S3 bucket my-foodie-ai-images đã được tạo](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-bucket-created.png)
 
-![Block Public Access được bật cho bucket](/images/1-Worklog/1.2-Week2/s3-block-public-access.png)
+![Block Public Access được bật cho bucket](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/s3-block-public-access.png)
 
 Backend lưu ảnh AI dưới prefix `ai-images/`; ảnh công thức và avatar có thể dùng folder riêng nhưng vẫn trong bucket private.
 
@@ -72,7 +72,7 @@ Tạo hai secret:
 - `prod/foodie-recipe/db`: `DATABASE_URL` hoặc thông tin kết nối RDS.
 - `prod/foodie-recipe/app`: `JWT_SECRET` và `CLOUDFRONT_PRIVATE_KEY_BASE64`.
 
-![Secrets Manager chứa secret của FoodieRecipe](/images/1-Worklog/1.2-Week2/secrets-manager-created.png)
+![Secrets Manager chứa secret của FoodieRecipe](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.2-Week2/secrets-manager-created.png)
 
 Các giá trị không nhạy cảm như bucket, model ID, CloudFront domain và TTL có thể lưu trong Systems Manager Parameter Store.
 

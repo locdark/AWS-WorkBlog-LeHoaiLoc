@@ -10,9 +10,9 @@ pre: " <b> 5.4.1. </b> "
 
 Trang **Tủ lạnh AI** cho phép người dùng chọn một ảnh nguyên liệu:
 
-![Trang upload ảnh nguyên liệu](/images/1-Worklog/1.4-Week4/ai-image-upload-page.png)
+![Trang upload ảnh nguyên liệu](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.4-Week4/ai-image-upload-page.png)
 
-![Ảnh nguyên liệu đã được chọn](/images/1-Worklog/1.5-Week5/ai-image-selected.png)
+![Ảnh nguyên liệu đã được chọn](/AWS-WorkBlog-LeHoaiLoc/images/1-Worklog/1.5-Week5/ai-image-selected.png)
 
 Khác với pre-signed PUT, implementation hiện tại gửi file qua NestJS. Cách này giúp Backend kiểm soát quá trình resize, định dạng và object key trước khi ghi S3.
 
