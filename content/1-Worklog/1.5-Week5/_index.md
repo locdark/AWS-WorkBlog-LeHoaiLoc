@@ -7,9 +7,11 @@ pre: " <b> 1.5. </b> "
 ---
 
 ### Week 5 Objectives:
-* Research and configure Amazon S3 as the primary storage for food images and AI-generated assets.
+* Research and Configure Amazon S3 as the object storage for food images and AI-generated outputs.
+* Integrate UI/UX for Social Features: News Feed, real-time comments, and notification system.
 * Integrate Amazon Rekognition SDK into the NestJS backend to automatically detect ingredients from uploaded photos.
-* Research and integrate Amazon Bedrock (utilizing the Amazon Nova Lite model) to auto-generate cooking recipes from detected ingredients.
+* Successfully integrated Amazon Bedrock (using the Amazon Nova Lite model) to automatically generate intuitive, detailed recipes from the recognized ingredient lists.
+* Completed the UI integration for Social interactions, delivering a seamless user experience via real-time comment and news feed components.
 * Integrate AWS Secrets Manager to manage and secure all sensitive environment variables (database credentials, API keys) centrally.
 * Research and write Blog 1: *AWS Fargate vs Lambda – When to choose Container Serverless over Function Serverless*.
 * Sync all source codes and progress reports to GitHub.
@@ -19,7 +21,7 @@ pre: " <b> 1.5. </b> "
 | --- | --- | --- | --- | --- |
 | 2 | - Research Amazon S3 and configure AWS SDK on the NestJS backend to upload food and AI-generated images directly to S3. <br>- Set up CORS and Bucket access policies for secure delivery. | 20/07/2026 | 20/07/2026 | [Amazon S3 SDK Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) |
 | 3 | - Explore Amazon Rekognition SDK. <br>- Develop backend API endpoints to analyze food items from uploaded pictures and return list arrays of identified ingredients in JSON format. | 20/07/2026 | 20/07/2026 | [Amazon Rekognition Developer Guide](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html) |
-| 4 | - Study Amazon Bedrock and the Amazon Nova Lite API model. <br>- Design custom system prompts and write logic to invoke Bedrock APIs for generating recipes based on detected ingredients. | 20/07/2026 | 20/07/2026 | [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) |
+| 4 | - Research Amazon Bedrock and the Amazon Nova Lite model. <br>- Integrate the UI display for Social features (News Feed, Comment, Like/Save) on the Next.js Frontend. <br>- Design prompt engineering flows and integrate Bedrock API calls to automatically generate recipes. | 22/07/2026 | 22/07/2026 | [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) |
 | 5 | - Research AWS Secrets Manager. <br>- Configure NestJS ConfigService to dynamically load database credentials, API keys, and AWS access credentials from Secrets Manager instead of a local `.env` file. | 20/07/2026 | 20/07/2026 | [AWS Secrets Manager User Guide](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html) |
 | 6 | - Conduct E2E testing of the AI integration workflow (Image upload -> Rekognition analysis -> Bedrock recipe generation -> S3 storage). <br>- **Finalize and publish Blog 1: AWS Fargate vs Lambda – When to choose Container Serverless over Function Serverless.** | 20/07/2026 | 20/07/2026 | [AWS Lambda vs Fargate Blog](https://aws.amazon.com/) <br><br> [GitHub Workspace](https://github.) |
 
