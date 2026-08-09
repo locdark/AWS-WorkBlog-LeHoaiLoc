@@ -26,7 +26,7 @@ chapter: false
 &emsp; **Thời gian thực tập:** Từ ngày 22/06/2026 đến ngày 15/08/2026
 
 <div style="text-align: center;">
-  <img src="/images/avatar.png" alt="Ảnh đại diện của bạn" style="width: 600px; height: 600px; object-fit: cover; border-radius: 12px; border: 3px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px auto;" />
+  <img src="/AWS-WorkBlog-LeHoaiLoc/images/avatar.png" alt="Ảnh đại diện của bạn" style="width: 600px; height: 600px; object-fit: cover; border-radius: 12px; border: 3px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px auto;" />
 </div>
 
 

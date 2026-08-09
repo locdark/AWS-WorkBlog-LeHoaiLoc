@@ -28,7 +28,7 @@ chapter: false
 &emsp; **Internship Duration:** From 22/06/2026 to 15/08/2026
 
 <div style="text-align: center;">
-  <img src="/images/avatar.png" alt="Your profile picture" style="width: 600px; height: 600px; object-fit: cover; border-radius: 12px; border: 3px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px auto;" />
+  <img src="/AWS-WorkBlog-LeHoaiLoc/images/avatar.png" alt="Your profile picture" style="width: 600px; height: 600px; object-fit: cover; border-radius: 12px; border: 3px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px auto;" />
 </div>
 
 ### Report Content
