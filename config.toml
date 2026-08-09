@@ -1,5 +1,5 @@
 baseURL = "https://locdark.github.io/AWS-WorkBlog-LeHoaiLoc/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
