@@ -1,4 +1,4 @@
-baseURL = "https://workshop-sample.awsfcaj.com/"
+baseURL = "https://locdark.github.io/AWS-WorkBlog-LeHoaiLoc/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
