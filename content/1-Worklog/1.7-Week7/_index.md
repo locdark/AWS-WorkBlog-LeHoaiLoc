@@ -1,6 +1,6 @@
 ---
 title: "Week 7 Worklog"
-date: 2026-08-06
+date: 2026-08-03
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -17,10 +17,10 @@ pre: " <b> 1.7. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
 | 2 | - Write the participation report for the AWS FCAJ Agent Forge - Deepdive event. <br>- Configure DNS record (A record) pointing `myapps.io.vn` to the EC2 Elastic IP. <br>- Configure Nginx as a Reverse Proxy to route port 80/443 traffic to Next.js and NestJS backend. | 03/08/2026 | 03/08/2026 | [Nginx Configuration Guide](https://nginx.org/en/docs/) <br><br> [Event 2 Report](../../4-eventparticipated/4.2-event2/) |
-| 3 | - Install Certbot and request a free SSL certificate from Let's Encrypt. <br>- Configure automatic SSL renewal, enable HTTPS, and set secure cookies for authorization. | 04/08/2026 | 04/08/2026 | [Certbot Let's Encrypt Guide](https://certbot.eff.org/) |
-| 4 | - Execute comprehensive End-to-End (E2E) system integration testing: User login, S3 upload, Rekognition ingredient extraction, Bedrock Nova Lite recipe creation, and CloudWatch log captures. | 05/08/2026 | 05/08/2026 | [AWS End-to-End Testing Guides](https://aws.amazon.com/) |
-| 5 | - Evaluate web application performance on the production domain, inspect and debug exceptions recorded in container logs on CloudWatch, and refactor backend APIs. | 06/08/2026 | 06/08/2026 | [Amazon CloudWatch Logs Guide](https://docs.aws.amazon.com/AmazonWatch/latest/logs/) |
-| 6 | - Record the detailed website demo video showcasing interfaces and features on the production domain. | 07/08/2026 | 07/08/2026 | [AWS Presentation Best Practices](https://aws.amazon.com/) |
+| 3 | - Install Certbot and request a free SSL certificate from Let's Encrypt. <br>- Configure automatic SSL renewal, enable HTTPS, and set secure cookies for authorization. | 03/08/2026 | 03/08/2026 | [Certbot Let's Encrypt Guide](https://certbot.eff.org/) |
+| 4 | - Execute comprehensive End-to-End (E2E) system integration testing: User login, S3 upload, Rekognition ingredient extraction, Bedrock Nova Lite recipe creation, and CloudWatch log captures. | 03/08/2026 | 03/08/2026 | [AWS End-to-End Testing Guides](https://aws.amazon.com/) |
+| 5 | - Evaluate web application performance on the production domain, inspect and debug exceptions recorded in container logs on CloudWatch, and refactor backend APIs. | 03/08/2026 | 03/08/2026 | [Amazon CloudWatch Logs Guide](https://docs.aws.amazon.com/AmazonWatch/latest/logs/) |
+| 6 | - Record the detailed website demo video showcasing interfaces and features on the production domain. | 03/08/2026 | 03/08/2026 | [AWS Presentation Best Practices](https://aws.amazon.com/) |
 
 ### Week 7 Achievements:
 * Completed the participation report for the AWS FCAJ Agent Forge - Deepdive event.

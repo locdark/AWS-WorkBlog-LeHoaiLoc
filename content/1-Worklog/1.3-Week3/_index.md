@@ -1,6 +1,6 @@
 ---
 title: "Week 3 Worklog"
-date: 2026-07-10
+date: 2026-07-06
 weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -17,10 +17,10 @@ pre: " <b> 1.3. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
 | 2 | - Study CI/CD workflows on AWS. <br>- Research how to integrate GitHub, AWS CodePipeline, and Amazon S3 to automate the build and deployment process. <br>- Practice creating a sample Pipeline and understand the pipeline lifecycle. | 06/07/2026 | 06/07/2026 | [AWS CodePipeline User Guide](https://docs.aws.amazon.com/codepipeline/latest/userguide/) |
-| 3 | - Research Amazon CloudWatch, focusing on resource monitoring, log aggregation, and alarm setup. <br>- Study AWS Lambda and Serverless Computing, and write a simple Lambda function. | 07/07/2026 | 07/07/2026 | [Amazon CloudWatch Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/) <br><br> [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/) |
-| 4 | - Study Amazon Cognito and user authentication flows. <br>- Research how to integrate AWS Lambda with Amazon S3 and Amazon DynamoDB to process data under a serverless architecture. | 08/07/2026 | 08/07/2026 | [Amazon Cognito Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/) <br><br> [Amazon DynamoDB Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/) |
-| 5 | - Start building the FoodieRecipe project: Set up the Next.js project structure (Social Module layout, Sidebar, Header, Dashboard layout) and NestJS backend architecture (modules, controllers, services connected to RDS). | 09/07/2026 | 09/07/2026 | [Next.js Routing](https://nextjs.org/docs/app/building-your-application/routing) <br><br> [NestJS Controllers & Modules](https://docs.nestjs.com/controllers) |
-| 6 | - Build user login and authorization (Authentication/Authorization) for the Social portal using NestJS Guards combined with JWT, and connect it with the Next.js Social login screen. <br>- Sync all source codes to GitHub. | 10/07/2026 | 10/07/2026 | [NestJS Security Authentication](https://docs.nestjs.com/security/authentication) |
+| 3 | - Research Amazon CloudWatch, focusing on resource monitoring, log aggregation, and alarm setup. <br>- Study AWS Lambda and Serverless Computing, and write a simple Lambda function. | 06/07/2026 | 06/07/2026 | [Amazon CloudWatch Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/) <br><br> [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/) |
+| 4 | - Study Amazon Cognito and user authentication flows. <br>- Research how to integrate AWS Lambda with Amazon S3 and Amazon DynamoDB to process data under a serverless architecture. | 06/07/2026 | 06/07/2026 | [Amazon Cognito Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/) <br><br> [Amazon DynamoDB Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/) |
+| 5 | - Start building the FoodieRecipe project: Set up the Next.js project structure (Social Module layout, Sidebar, Header, Dashboard layout) and NestJS backend architecture (modules, controllers, services connected to RDS). | 06/07/2026 | 06/07/2026 | [Next.js Routing](https://nextjs.org/docs/app/building-your-application/routing) <br><br> [NestJS Controllers & Modules](https://docs.nestjs.com/controllers) |
+| 6 | - Build user login and authorization (Authentication/Authorization) for the Social portal using NestJS Guards combined with JWT, and connect it with the Next.js Social login screen. <br>- Sync all source codes to GitHub. | 06/07/2026 | 06/07/2026 | [NestJS Security Authentication](https://docs.nestjs.com/security/authentication) |
 
 ### Week 3 Achievements:
 * Understood how to build deployment pipelines using CI/CD models on AWS, and grasped the roles of AWS CodePipeline, GitHub, and Amazon S3 in automation.
