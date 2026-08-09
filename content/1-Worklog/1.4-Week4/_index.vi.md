@@ -8,7 +8,7 @@ pre: " <b> 1.4. </b> "
 
 
 ### Mục tiêu tuần 4:
-* Tiếp tục phát triển giao diện quản trị FoodieRecipe Admin bằng Next.js theo đúng yêu cầu nghiệp vụ.
+* Tiếp tục phát triển giao diện quản trị FoodieRecipe Social Module bằng Next.js theo đúng yêu cầu nghiệp vụ.
 * Xây dựng các tính năng quản lý thực thể cốt lõi bao gồm người dùng (User), danh mục món ăn (Category) và công thức nấu ăn (Recipe).
 * Thực hiện kết nối tích hợp dữ liệu với NestJS Backend API để hoàn thành các thao tác CRUD cơ bản.
 * Tối ưu hóa trải nghiệm người dùng: thực hiện Validate Form, phân trang, lọc/tìm kiếm dữ liệu và thiết kế responsive.

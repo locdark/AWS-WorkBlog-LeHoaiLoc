@@ -7,7 +7,7 @@ pre: " <b> 1.4. </b> "
 ---
 
 ### Week 4 Objectives:
-* Continue developing the FoodieRecipe Admin portal interface using Next.js according to business specifications.
+* Continue developing the FoodieRecipe Social Module portal interface using Next.js according to business specifications.
 * Build core management modules for entities including Users, Food Categories, and Recipes.
 * Complete data integration with the NestJS Backend API to execute standard CRUD operations.
 * Optimize user experience by implementing Form Validation, Pagination, searching/filtering, and responsive layout designs.
@@ -23,7 +23,7 @@ pre: " <b> 1.4. </b> "
 | 6 | - Conduct End-to-End integration testing for the Admin portal, capturing and debugging UI rendering issues or API endpoint connection failures. <br>- Refactor code scripts for optimization and commit updates to GitHub. | 17/07/2026 | 17/07/2026 | [GitHub Workspace](https://github.com/) |
 
 ### Week 4 Achievements:
-* Completed the Admin interface of the FoodieRecipe project according to the design mockups and business specifications.
+* Completed the Social interface of the FoodieRecipe project according to the design mockups and business specifications.
 * Successfully built core administrative modules like User management, Category lists, and Recipes, and connected them with the Backend API.
 * Finished integration between Next.js and NestJS, ensuring accurate data retrieval and storage operations.
 * Tested and resolved runtime bugs, optimizing UI/UX performance for high responsiveness.
