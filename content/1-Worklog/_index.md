@@ -12,7 +12,7 @@ pre: " <b> 1. </b> "
 
 **Week 3:** [Serverless Integration, CI/CD setup & Boilerplate development (Authentication)](1.3-week3/)
 
-**Week 4:** [Developing Admin administrative modules & API Integration](1.4-week4/)
+**Week 4:** [Developing Social Module Social features & API Integration](1.4-week4/)
 
 **Week 5:** [S3 Storage, Rekognition/Bedrock AI Integration & Secrets Manager Security](1.5-week5/)
 

@@ -13,7 +13,7 @@ pre: " <b> 1. </b> "
 
 **Tuần 3:** [Tích hợp Serverless, thiết lập CI/CD & Xây dựng khung ứng dụng (Authentication)](1.3-week3/)
 
-**Tuần 4:** [Phát triển các tính năng quản trị Admin & Tích hợp liên thông API](1.4-week4/)
+**Tuần 4:** [Phát triển các tính năng quản trị Social Module & Tích hợp liên thông API](1.4-week4/)
 
 **Tuần 5:** [Tích hợp Lưu trữ S3, Trí tuệ Nhân tạo Rekognition/Bedrock & Bảo mật Secrets Manager](1.5-week5/)
 
