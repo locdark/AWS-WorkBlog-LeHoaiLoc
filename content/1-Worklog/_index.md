@@ -22,6 +22,3 @@ pre: " <b> 1. </b> "
 
 **Week 8:** [Final Reporting, AWS Resource Cleanup & Publication (Wrap-up)](1.8-week8/)
 
-
-
-

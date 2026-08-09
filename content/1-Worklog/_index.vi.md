@@ -22,6 +22,3 @@ pre: " <b> 1. </b> "
 **Tuần 7:** [Kiểm thử hệ thống, cấu hình tên miền HTTPS & Quay video giới thiệu](1.7-week7/)
 
 **Tuần 8:** [Hoàn thiện báo cáo, dọn dẹp tài nguyên & Xuất bản (Wrap-up)](1.8-week8/)
-
-
-
