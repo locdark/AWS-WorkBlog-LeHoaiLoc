@@ -21,3 +21,11 @@ pre: " <b> 1. </b> "
 **Week 7:** [System Testing, HTTPS Custom Domain Configuration & Website Demo Video](1.7-week7/)
 
 **Week 8:** [Final Reporting, AWS Resource Cleanup & Publication (Wrap-up)](1.8-week8/)
+
+**Week 9:** [Connect, get to know members of First Cloud AI Journey](1.9-week9/)
+
+**Week 10:** [Learn about AI/ML, Amazon Bedrock and Foundation Models](1.10-week10/)
+
+**Week 11:** [Learn RAG, Vector Database and practice building GenAI apps](1.11-week11/)
+
+**Week 12:** [Attend Workshop, practice Prompt Engineering and project summary](1.12-week12/)

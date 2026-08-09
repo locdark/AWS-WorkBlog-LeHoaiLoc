@@ -22,3 +22,10 @@ pre: " <b> 1. </b> "
 **Tu·∫ßn 7:** [Ki·ªÉm th·ª≠ h·ªá th·ªëng, c·∫•u h√¨nh t√™n mi·ªÅn HTTPS & Quay video gi·ªõi thi·ªáu](1.7-week7/)
 
 **Tu·∫ßn 8:** [Ho√†n thi·ªán b√°o c√°o, d·ªçn d·∫πp t√†i nguy√™n & Xu·∫•t b·∫£n (Wrap-up)](1.8-week8/)
+**Tu?n 9:** [K?t n?i, l‡m quen v?i c·c th‡nh viÍn trong First Cloud AI Journey](1.9-week9/)
+
+**Tu?n 10:** [TÏm hi?u AI/ML, Amazon Bedrock v‡ c·c mÙ hÏnh n?n t?ng (Foundation Models)](1.10-week10/)
+
+**Tu?n 11:** [TÏm hi?u RAG, Vector Database v‡ th?c h‡nh x‚y d?ng ?ng d?ng GenAI](1.11-week11/)
+
+**Tu?n 12:** [Tham gia Workshop, th?c h‡nh Prompt Engineering v‡ t?ng k?t d? ·n](1.12-week12/)
