@@ -119,6 +119,7 @@ Attending the **Cloud Architect** event was valuable because it showed how cloud
 - Good architecture makes future change easier, not harder.  
 
 #### Some event photos
+![Cloud Architect event photo](/AWS-WorkBlog-LeHoaiLoc/images/4-EventParticipated/4.1-Event1/event1.png)
 ![Cloud Architect event group photo](/AWS-WorkBlog-LeHoaiLoc/images/4-EventParticipated/4.1-Event1/picture_event.png)
 
 > Overall, the event gave me a clearer view of the cloud architect role and how thoughtful design decisions shape reliable, secure, and scalable systems.
